@@ -29,7 +29,7 @@
               </table>
               <div style="display: flex;justify-content: space-between;">
 
-                <a class="btn btn-success" href="/admin/photo/?page=@if($page>0){{$page-1}}@else 5 @endif">Previous</a>
+                <a class="btn btn-success" href="/admin/photo/?page={{$page-1}}">Previous</a>
                 <a class="btn btn-success" href="/admin/photo/?page={{$page+1}}">Next</a>
               </div>
         </div>
